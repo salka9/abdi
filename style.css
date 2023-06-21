@@ -1,0 +1,774 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.image{
+    width: 116px;
+    float: left;
+    margin: -16px 0px 0px 0px;
+}
+
+.logo{
+    font-size: 35px;
+    padding: 25px;
+    line-height: 20px;
+    line-height: 80px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+span{
+    color: rgb(255, 70, 23);
+    
+}
+nav{
+    box-shadow: 3px 4px 7px rgb(175, 169, 169);
+    border: 3px solid #fff;
+}
+nav ul{
+    float: right;
+    margin: -60px 10px 20px 0px;
+    
+}
+nav ul li{
+    display: inline-block;
+    font-size: 19px;
+    margin: 13px;
+}
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+nav ul li a:hover{
+    color: #ff8c00;
+    background-color: rgb(134, 130, 130);
+    padding: 5px 13px;
+    border-radius: 10px;
+}
+.home{
+    padding-left: 670px;
+    width: 600px;
+    margin-top: -280px;
+}
+
+.cade{
+    text-align: center;
+    font-size: 29px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.daga{
+    margin: 66px 10px -50px 55px;
+    padding-left: 67px;
+    padding-top: 88px;
+}
+.fara{
+    font-size: 33px;
+    letter-spacing: 2px;
+}
+h2{
+    font-size: 66px;
+    color: #561592;
+}
+
+p{
+    font-size: 20px;
+    font-family:'Arial Narrow';
+    letter-spacing: 1px;
+}
+.about{
+    padding-left: 670px;
+    width: 600px;
+    margin-top: -270px;
+}
+
+h4{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #5913aa;
+    bottom: -60px;
+    
+}
+h3{
+    font-size: 35px;
+    font-family: sans-serif;
+    color: #ffff;
+    text-align: center;
+    padding: -74px;
+    
+}
+  /* qeeebta box ka cuntoyinka part1 */
+.food1{
+    background-color: #eeee;
+}
+/* qebta foods ka  */
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.food1 h3 {
+    font-size: 35px;
+    font-family: sans-serif;
+    color: rgb(10, 7, 7);
+    text-align: center;
+    padding: -74px;
+    
+}
+.food1 span{
+    color: rgb(255, 72, 0);
+}
+.kaar{
+    background: #ffff;
+    width: 280px;
+    height: 365px;
+    margin: 10px;
+    border-radius: 15px;
+    border: 1px solid #000;
+}
+.kaar-sawir{
+    background-color: aqua;
+    border-radius: 15px 15px 0 0;
+    height: 200px;
+}
+.kaar1{
+    background: url(food-1.png);
+    background-size: cover;
+}
+.kaar2{
+    background: url(food-2.png);
+    background-size: cover;
+}
+.kaar3{
+    background: url(dish-2.png);
+    background-size: cover;
+}
+.kaar4{
+    background: url(food-4.png);
+    background-size: cover;
+}
+.kaar5{
+background: url(dish-3.png);
+background-size: cover;
+}
+.kaar6{
+    background: url(food-6.png);
+    background-size: cover;
+}
+.kaar7{
+    background: url(food-7.png);
+    background-size: cover;
+}
+.kaar8{
+    background: url(food-8.png);
+    background-size: cover;
+}
+.kaar h5{
+    padding: 12px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+.kaar p{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.kaar a{
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 50px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.kaar:hover{
+    background-color: rgb(78, 75, 75);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+.kaar a:hover{
+    background-color: white;
+    color: black;
+}
+/* dhamaadka qeebta foodska */
+
+
+
+/* bilawga qeebta labaad ee box ka ice creams */
+.food2{
+    background-color: #eee;
+}
+
+.iceall{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.food2 h3 {
+    font-size: 35px;
+    font-family: sans-serif;
+    color: rgb(10, 7, 7);
+    text-align: center;
+    padding: -74px;
+    
+}
+.food2 span{
+    color: rgb(255, 72, 0);
+}
+.kaarice{
+    background: #ffff;
+    width: 280px;
+    height: 365px;
+    margin: 10px;
+    border-radius: 15px;
+    border: 1px solid #000000;
+}
+.kaar-sawirice{
+    background-color: aqua;
+    border-radius: 15px 15px 0 0;
+    height: 200px;
+}
+
+
+.sawir1{
+    background: url(ice1.jpeg);
+    background-size: cover;
+}
+.sawir2{
+    background: url(ice2.jpeg);
+    background-size: cover;
+}
+.sawir3{
+    background: url(ice3.jpg);
+    background-size: cover;
+}
+.sawir4{
+    background: url(ice4.jpeg);
+    background-size: cover;
+}
+.sawir5{
+background: url(ice5.jpeg);
+background-size: cover;
+}
+.sawir6{
+    background: url(ice6.jpeg);
+    background-size: cover;
+}
+.sawir7{
+    background: url(s-img-3.jpg);
+    background-size: cover;
+}
+.sawir8{
+    background: url(menu-8.jpg);
+    background-size: cover;
+}
+
+.kaarice h5{
+    padding: 12px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+.kaarice p{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.kaarice a{
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 50px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.kaarice:hover{
+    background-color: rgb(78, 75, 75);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+.kaarice a:hover{
+    background-color: white;
+    color: black;
+}
+
+/* dhamaadka qeebta box ka cuntoyinka ice creams ka */
+
+/* bilaawga box ka sadaxaad gallery foods */
+.foods3{
+    background-color: rgba(219, 201, 201, 0.933);
+}
+.spcialdish{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.food3 h3 {
+    font-size: 35px;
+    font-family: sans-serif;
+    color: rgb(10, 7, 7);
+    text-align: center;
+    padding: -74px;
+    
+}
+.food3 span{
+    color: rgb(255, 72, 0);
+}
+.kaardish{
+    background: #ffff;
+    width: 280px;
+    height: 365px;
+    margin: 10px;
+    border-radius: 15px;
+    border: 1px solid #000;
+}
+.kaar-sawirdish{
+    background-color: aqua;
+    border-radius: 15px 15px 0 0;
+    height: 200px;
+}
+
+
+.image1{
+    background: url(new.jpg);
+    background-size: cover;
+}
+.image2{
+    background: url(menu-2.jpg);
+    background-size: cover;
+}
+.image3{
+    background: url(menu-3.jpg);
+    background-size: cover;
+}
+.image4{
+    background: url(menu-4.jpg);
+    background-size: cover;
+}
+.image5{
+background: url(menu-5.jpg);
+background-size: cover;
+}
+.image6{
+    background: url(menu-6.jpg);
+    background-size: cover;
+}
+.image7{
+    background: url(s-img-4.jpg);
+    background-size: cover;
+}
+.image8{
+    background: url(menu-7.jpg);
+    background-size: cover;
+}
+.kaardish h5{
+    padding: 12px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+.kaardish p{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.kaardish a{
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 50px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.kaardish:hover{
+    background-color: rgb(78, 75, 75);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+.kaardish a:hover{
+    background-color: white;
+    color: black;
+}
+
+/* dhamaadka box ka sadaxaad gallery foods  */
+/* bilaawga qeebta our team */
+.part2{
+    background-color: rgb(0, 0, 0);
+}
+
+.team{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.roll{
+    background: rgb(0, 0, 0);
+    width: 280px;
+    height: 334px;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+.img{
+    background-color: aqua;
+    border-radius: 15px 15px 0 0;
+    height: 250px;
+    border-radius: 90%;
+    border: 4px solid #ffff;
+}
+.taam1{
+    background: url(pic-1.png);
+    background-size: cover;
+}
+.taam2{
+    background: url(pic-2.png);
+    background-size: cover;
+}
+.taam3{
+    background: url(pic-3.png);
+    background-size: cover;
+}
+.taam4{
+    background: url(pic-4.png);
+    background-size: cover;
+}
+
+.roll h5{
+    padding: 12px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+.roll:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    filter: opacity(1.2);
+}
+/* dhamaadka qeebta our team ka */
+
+/* qeebta index page1 our dilivery */
+.control{
+    background-color: rgb(255, 255, 255);
+    height: 80vh;
+}
+
+.workers{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.cards{
+    background: rgb(0, 0, 0);
+    width: 280px;
+    height: 255px;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+.sawiraan{
+    background-color: aqua;
+    border-radius: 15px 15px 0 0;
+    height: 250px;
+    border-radius: 90%;
+    border: 4px solid #ffff;
+}
+.work1{
+    background: url(step-1.jpg);
+    background-size: cover;
+    border: 2px solid #000;
+}
+.work2{
+    background: url(step-2.jpg);
+    background-size: cover;
+}
+.work3{
+    background: url(step-3.jpg);
+    background-size: cover;
+}
+.work4{
+    background: url(step-4.jpg);
+    background-size: cover;
+}
+
+.cards h5{
+    padding: 12px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+
+}
+.cards p{
+        font-size: 20px;
+        font-family: sans-serif;
+        margin-top: 16px;
+        color: #000;
+}
+.celin{
+    font-size: 35px;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: -74px;
+    
+}
+
+.cards:hover{
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    transform: scale(1.03);
+}
+/* dhamaadka qeebta dilivery ka */
+
+/* qeebta footerka  */
+.iskutosin{
+    background-color:rgb(22, 19, 19) ;
+    width: 100%;
+    height: 37vh;
+}
+
+.sp{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+    margin-right:70rem;
+    line-height: 4rem;
+    
+}
+
+#siki{
+    margin-top: 55px;
+    margin-left: 35px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: 1px solid #000;
+    border-radius: 4px 5px;
+    background-color: black;
+
+}
+
+#siki:hover{
+    background-color: rgb(56, 151, 168);
+    border: 1px solid;
+    transform: scale(1.03);
+}
+.social p{
+    margin-left:66px ;
+    color: white;
+    margin-bottom: -45px;
+    font-family: sans-serif;
+}
+.footer2{
+    margin-top: -176px;
+    text-align: center;
+}
+.footer2 p{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 10px;
+
+}
+.footer2 ul li{
+    display: block;
+    margin: 5px;
+}
+.footer2 ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.footer2 ul li a:hover{
+    background-color: tomato;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.footer2 ul li a:hover{
+    background-color: tomato;
+    border: 1px solid;
+    border-radius: 20px;
+}
+.right{
+    margin-top: -25px;
+
+}
+.right img{
+
+    float: right;
+    margin-top: -145px;
+    margin-right: 265px;
+}
+.right p{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    float: right;
+    margin-top: -180px;
+    margin-right: 210px;
+
+}
+.right span{
+    font-family: serif;
+    font-size: 17px;
+    color: white;
+    float: right;
+    margin-top: -133px;
+    margin-right: 120px;
+}
+.cont img{
+    float: right;
+    margin-top: -94px;
+    margin-right: 265px;
+
+}
+.cont span{
+    font-family: serif;
+    font-size: 17px;
+    color: white;
+    float: right;
+    margin-top: -84px;
+    margin-right: 139px;
+}
+
+.uncount img{
+    float: right;
+    margin-top: -40px;
+    margin-right: 265px;
+
+}
+.uncount span{
+    font-family: serif;
+    font-size: 17px;
+    color: white;
+    float: right;
+    margin-top: -30px;
+    margin-right: 70px;
+    padding-right: 30px;
+}
+
+
+/* qeebta contacus
+qeebta contacus */
+.contactus{
+    background:linear-gradient(#41295a,#2f0743);
+    height: 100vh;
+}
+.helpcontact{
+    width: 300px;
+    height: 100px;
+
+  
+}
+
+.buuxin h6{
+    text-align: center;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(3, 3, 3);
+    font-size: 34px;
+}
+
+.buuxin{
+    width: 53vh;
+    height:66vh;
+    margin-left: 445px;
+    background: rgb(146, 141, 141);
+    margin-top: 45px;
+    border-radius: 10px;
+
+    
+}
+.buuxin .new{
+    margin: 6px;
+    width: 48vh;
+    margin-top: 25.5px;
+    height: 6vh;
+    padding-left: 20px;
+    background-color:rgba(255, 254, 254, 0.933);
+    border: 1px solid rgb(40, 151, 196);
+    border-radius: 10px;
+    border-radius: 10px;
+
+    appearance: none;
+    outline: none;
+    border: none;
+    display: block;
+}
+.buuxin .item{
+    width: 50vh;
+    border-radius: 10px;
+    height: 20vh;
+    margin-left: 10px;
+    background: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #4d9fe2;
+    appearance: none;
+    outline: none;
+    border: none;
+    display: block; 
+}
+.batan{
+    display: block;
+    background-color: #34f044;
+    padding: 10px 56px 13px 45px;
+    margin: 0px 90px 0px 95px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #ffff;
+    margin-top: 3px;
+}
+.contus{
+    text-align: center;
+    color: white;
+    margin-right: -300px;
+    text-transform: uppercase;
+   line-height: 1.5;
+   font-size: 17px;
+   padding-left: 450px;
+}
+
+
+
